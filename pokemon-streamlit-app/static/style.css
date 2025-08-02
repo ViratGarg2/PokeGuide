@@ -1,0 +1,352 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+/* Enhanced Pokémon-inspired styling with better readability */
+
+/* Hide sidebar completely */
+.css-1d391kg {
+    display: none;
+}
+
+/* Main app styling */
+.main {
+    background: linear-gradient(135deg, #f0f2f6 0%, #e8eef5 100%);
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+}
+
+/* Enhanced tab styling with better contrast */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 10px;
+    background: linear-gradient(45deg, #2c3e50, #34495e);
+    border-radius: 20px;
+    padding: 15px;
+    border: 3px solid #1a252f;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: rgba(52, 73, 94, 0.8);
+    border-radius: 15px;
+    padding: 12px 20px;
+    border: 2px solid #7f8c8d;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+
+.stTabs [data-baseweb="tab"]:hover {
+    background: rgba(41, 128, 185, 0.9);
+    border-color: #3498db;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(45deg, #e74c3c, #f39c12) !important;
+    border: 2px solid #c0392b !important;
+    color: white !important;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.stTabs [data-baseweb="tab-panel"] {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 20px;
+    border: 2px solid #2c3e50;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Custom button styling with better contrast */
+.stButton > button {
+    background: linear-gradient(45deg, #e74c3c, #f39c12);
+    border: 3px solid #2c3e50;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    padding: 12px 24px;
+    font-family: 'Courier New', monospace;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    background: linear-gradient(45deg, #c0392b, #d68910);
+    border-color: #1a252f;
+}
+
+.stButton > button:active {
+    transform: translateY(0px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Enhanced form styling */
+.stForm {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    border: 3px solid #2c3e50;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    margin: 20px 0;
+}
+
+/* Enhanced expander styling with better contrast */
+.streamlit-expanderHeader {
+    background: linear-gradient(45deg, #34495e, #2c3e50);
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px solid #1a252f;
+    color: #ecf0f1;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.streamlit-expanderContent {
+    background: #ffffff;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    border: 2px solid #2c3e50;
+    border-top: none;
+    color: #2c3e50;
+}
+
+/* Enhanced dataframe styling */
+.stDataFrame {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    border: 2px solid #2c3e50;
+}
+
+/* Enhanced metric styling */
+.metric-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2c3e50;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Header styling with better contrast */
+h1 {
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #34495e;
+    font-family: 'Courier New', monospace;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Enhanced success/error message styling with proper contrast */
+.stSuccess {
+    background: linear-gradient(45deg, #27ae60, #2ecc71);
+    border-left: 5px solid #1e8449;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 15px;
+    border: 1px solid #1e8449;
+}
+
+.stError {
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+    border-left: 5px solid #a93226;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 15px;
+    border: 1px solid #a93226;
+}
+
+.stWarning {
+    background: linear-gradient(45deg, #f39c12, #e67e22);
+    border-left: 5px solid #d68910;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 15px;
+    border: 1px solid #d68910;
+}
+
+.stInfo {
+    background: linear-gradient(45deg, #3498db, #2980b9);
+    border-left: 5px solid #2471a3;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 15px;
+    border: 1px solid #2471a3;
+}
+
+/* Enhanced input field styling */
+.stTextInput input, .stNumberInput input, .stSelectbox select {
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+    padding: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    background: #ffffff;
+    color: #2c3e50;
+}
+
+.stTextInput input:focus, .stNumberInput input:focus, .stSelectbox select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+    outline: none;
+}
+
+/* Progress bar styling */
+.stProgress .st-bo {
+    background: linear-gradient(45deg, #e74c3c, #f39c12);
+    border-radius: 10px;
+    height: 20px;
+}
+
+/* Custom container styling */
+.custom-container {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    border: 2px solid #2c3e50;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+/* Label styling for better readability */
+.stTextInput label, .stNumberInput label, .stSelectbox label {
+    color: #2c3e50;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+/* Sidebar text styling (if needed) */
+.css-1d391kg .stMarkdown {
+    color: #ecf0f1;
+}
+
+/* Tab content text styling */
+.stTabs [data-baseweb="tab-panel"] p {
+    color: #2c3e50;
+}
+
+.stTabs [data-baseweb="tab-panel"] h1,
+.stTabs [data-baseweb="tab-panel"] h2,
+.stTabs [data-baseweb="tab-panel"] h3 {
+    color: #2c3e50;
+}
+
+/* Metric card styling */
+.stMetric {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #2c3e50;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.stMetric label {
+    color: #34495e;
+    font-weight: bold;
+}
+
+.stMetric [data-testid="metric-value"] {
+    color: #e74c3c;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Column styling */
+.stColumns {
+    gap: 20px;
+}
+
+/* Selectbox options */
+.stSelectbox div[data-baseweb="select"] {
+    background: #ffffff;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+}
+
+.stSelectbox div[data-baseweb="select"] div {
+    color: #2c3e50;
+}
